@@ -1,32 +1,15 @@
 using UnityEngine;
+using Mirror;
 
-public class drawCards : MonoBehaviour
+public class drawCards : NetworkBehaviour
 {
-    public GameObject Action1;
-    public GameObject Action2;
-    public GameObject Action3;
-    public GameObject Action4;
-    public GameObject Action5;
-    public GameObject Action6;
-    public GameObject Action7;
-    public GameObject PlayerArea;
+    public PlayerManager PlayerManager;
 
     public void OnClick()
     {
-        for (int i = 0; i < 6; i++)
-        {
-            GameObject card = Instantiate(Action1, new Vector2(0, 0), Quaternion.identity); 
-            card.transform.SetParent(PlayerArea.transform, false);
-        }
+        NetworkIdentity networkIdentity = NetworkClient.connection.identity;
+        PlayerManager = networkIdentity.GetComponent<PlayerManager>();
+        PlayerManager.CmdDealCards(); 
     }
-    void Start()
-    {
-        
-    }
-
     
-    void Update()
-    {
-        
-    }
 }
