@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6751337497742401734}
   - component: {fileID: 7400347598122308233}
   - component: {fileID: -1732341798540233602}
+  - component: {fileID: 1779839619286815894}
   m_Layer: 0
   m_Name: Action6
   m_TagString: Untagged
@@ -187,3 +188,17 @@ MonoBehaviour:
   rotationSensitivity: 0.01
   positionPrecision: 0.01
   scalePrecision: 0.01
+--- !u!114 &1779839619286815894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3878758529698005343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6046465514b4a3d46bc49117e10ff500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardFront: {fileID: 5849515798013864637, guid: b5123abfc36d12143ab3a6a5a9a86225, type: 3}
+  CardBack: {fileID: -1402532067502269942, guid: 4c13bf34876dfba42acdf7016d357488, type: 3}

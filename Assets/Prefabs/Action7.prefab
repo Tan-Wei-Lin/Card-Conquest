@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -3564615795209430588}
   - component: {fileID: 2085984594460639335}
   - component: {fileID: 6971263429354587242}
+  - component: {fileID: -5243873625531267182}
   m_Layer: 0
   m_Name: Action7
   m_TagString: Untagged
@@ -187,3 +188,17 @@ MonoBehaviour:
   serverOnly: 0
   visibility: 0
   hasSpawned: 0
+--- !u!114 &-5243873625531267182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076189277518839834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6046465514b4a3d46bc49117e10ff500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardFront: {fileID: -4221496997705024669, guid: b699ebbc0e584344f8b87137df96276b, type: 3}
+  CardBack: {fileID: -1402532067502269942, guid: 4c13bf34876dfba42acdf7016d357488, type: 3}
